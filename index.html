@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Tech.Care</h2>
+      <ul>
+        <li>Overview</li>
+        <li class="active">Patients</li>
+        <li>Schedule</li>
+        <li>Messages</li>
+        <li>Transactions</li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <header>
+        <h1>Patients</h1>
+        <p>Welcome, Dr. Jose Simmons</p>
+      </header>
+
+      <div class="dashboard">
+        <!-- Patient List -->
+        <div class="patients">
+          <h3>Patients</h3>
+          <ul>
+            <li>Jessica Taylor (Female, 28)</li>
+          </ul>
+        </div>
+
+        <!-- Diagnosis History -->
+        <div class="diagnosis">
+          <h3>Diagnosis History</h3>
+          <canvas id="bloodPressureChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
